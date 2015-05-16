@@ -1,0 +1,125 @@
+$screen-sm-min:768px;
+$screen-md-min:992px;
+$screen-lg-min:1200px;
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) { 
+  .bar{
+    height:6em;
+    .margen{
+      padding-left: 3em;
+      padding-right: 3em;
+      .logo{
+        width: 30%;
+        float: left;
+        padding-top: 0.5em;
+      }
+      .menu{
+        display: block;
+        float: right;
+        width: 70%;      
+        padding-top: 0.5em;
+        
+      }
+    }
+}
+  .banner{
+  position: relative;
+    .izq{
+      float: left;
+      width: 60%;
+      height: 100%;
+    }
+    .te{
+      padding-top: 4em;
+      font-size: 2em;
+      .sub{
+        font-size: 1.5em;
+      }
+    }
+    .der{
+
+      float: right; 
+      width: 40%;
+      height: 100%;
+      .mano{
+        display:block;
+        position: absolute;
+        bottom: 0;
+        right: 3em;
+
+        img{
+          max-width: 80%;
+        }
+      }
+    }
+  }
+  .rombo{
+    padding-top: 2em;
+    .columna{
+        width: 20%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
+
+.ganancias{
+    padding-left: 20%;
+    padding-right: 20%;
+    .uno{
+        font-size: 1.8em;
+
+    }
+    .dos{
+        font-size: 1.4em;
+    }
+    .nar{
+        color: #ea4703;
+    }
+}
+  .cupon{
+    .col{
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .col2{
+        padding-top: 6em;
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
+  .info{
+    .cont{
+      .col1{
+        width: 50%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      .col2{
+        text-align: right;
+        width: 30%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

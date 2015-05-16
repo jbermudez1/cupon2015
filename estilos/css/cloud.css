@@ -1,0 +1,239 @@
+/* line 1, ../saas/cloud.scss */
+html {
+  font-family: sans-serif;
+}
+
+/* line 5, ../saas/cloud.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 10, ../saas/cloud.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 14, ../saas/cloud.scss */
+.margenes {
+  width: 80%;
+  background-color: red;
+  left: 0%;
+  right: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 24, ../saas/cloud.scss */
+.bar {
+  background-color: white;
+  height: 4em;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+/* line 30, ../saas/cloud.scss */
+.bar .margen {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+/* line 33, ../saas/cloud.scss */
+.bar .margen .logo {
+  padding-top: 0.2em;
+  width: 100%;
+  float: left;
+}
+/* line 38, ../saas/cloud.scss */
+.bar .margen .menu {
+  display: none;
+  width: 70%;
+  color: #818181;
+  font-size: 1em;
+  overflow: hidden;
+}
+/* line 44, ../saas/cloud.scss */
+.bar .margen .menu li {
+  padding-top: 1em;
+  padding-right: 7%;
+  list-style: none;
+  float: right;
+}
+
+/* line 54, ../saas/cloud.scss */
+.banner {
+  background-image: url(../../img/banner.png);
+  background-size: cover;
+  height: 70%;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 80%;
+}
+/* line 61, ../saas/cloud.scss */
+.banner .izq {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding-top: 7em;
+}
+/* line 68, ../saas/cloud.scss */
+.banner .te {
+  color: white;
+  float: left;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+/* line 73, ../saas/cloud.scss */
+.banner .te .sub {
+  font-size: 1.9em;
+  line-height: 1em;
+}
+/* line 78, ../saas/cloud.scss */
+.banner .der {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+/* line 82, ../saas/cloud.scss */
+.banner .der .mano {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 3em;
+}
+/* line 88, ../saas/cloud.scss */
+.banner .der .mano img {
+  max-width: 80%;
+}
+
+/* line 94, ../saas/cloud.scss */
+.rombo {
+  margin-top: 1em;
+  text-align: center;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+}
+/* line 101, ../saas/cloud.scss */
+.rombo .columna {
+  float: center;
+  padding: 0.5em;
+}
+/* line 104, ../saas/cloud.scss */
+.rombo .columna .tit {
+  font-size: 1.3em;
+  color: #6b6b6b;
+}
+/* line 108, ../saas/cloud.scss */
+.rombo .columna .link {
+  font-size: 1em;
+  color: #e45c23;
+}
+
+/* line 114, ../saas/cloud.scss */
+.ganancias {
+  background-color: #cacaca;
+}
+/* line 116, ../saas/cloud.scss */
+.ganancias p {
+  color: white;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 122, ../saas/cloud.scss */
+.ganancias .uno {
+  font-size: 1.3em;
+}
+/* line 126, ../saas/cloud.scss */
+.ganancias .dos {
+  font-size: 1.4em;
+}
+/* line 129, ../saas/cloud.scss */
+.ganancias .nar {
+  color: #ea4703;
+}
+
+/* line 133, ../saas/cloud.scss */
+.cupon {
+  padding: 7%;
+  background-color: #f6f6f6;
+  padding-top: 2em;
+  text-align: center;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+}
+/* line 142, ../saas/cloud.scss */
+.cupon .col {
+  float: center;
+  padding: 0.5em;
+}
+/* line 146, ../saas/cloud.scss */
+.cupon .col2 {
+  vertical-align: top;
+  float: center;
+  padding: 0.5em;
+}
+/* line 150, ../saas/cloud.scss */
+.cupon .col2 .texto {
+  text-align: left;
+  color: #696969;
+  line-height: 1.3em;
+}
+/* line 154, ../saas/cloud.scss */
+.cupon .col2 .texto .nar {
+  color: #ea4703;
+}
+
+/* line 162, ../saas/cloud.scss */
+.info {
+  padding-left: 7%;
+  padding-top: 2em;
+  padding-right: 7%;
+}
+/* line 166, ../saas/cloud.scss */
+.info .tit {
+  font-size: 2.5em;
+}
+/* line 170, ../saas/cloud.scss */
+.info .cont {
+  clear: both;
+  position: relative;
+  overflow: hidden;
+}
+/* line 174, ../saas/cloud.scss */
+.info .cont .col1 {
+  float: center;
+  padding: 0.5em;
+}
+/* line 178, ../saas/cloud.scss */
+.info .cont .col2 {
+  float: center;
+  padding: 0.5em;
+  color: #a8a8a8;
+}
+/* line 182, ../saas/cloud.scss */
+.info .cont .col2 .tel {
+  font-size: 1.4em;
+}
+/* line 185, ../saas/cloud.scss */
+.info .cont .col2 .tel2 {
+  font-size: 2em;
+  color: #ea4703;
+}
+/* line 189, ../saas/cloud.scss */
+.info .cont .col2 .mail {
+  font-size: 1.3em;
+}
+/* line 192, ../saas/cloud.scss */
+.info .cont .col2 .dire {
+  font-size: 0.7em;
+}
+
+/* line 198, ../saas/cloud.scss */
+footer {
+  text-align: center;
+  color: white;
+  background-color: #484848;
+  padding: 1em;
+}
