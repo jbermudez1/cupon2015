@@ -11,6 +11,8 @@ body,html{
   height: 100%;
 }
 
+
+/*-----------------------------------INDEX-------------------------------------*/
 .margenes{
   width: 80%;
   background-color: red;
@@ -39,12 +41,12 @@ body,html{
         display: none;
         width: 70%;      
         color: #818181;
-        font-size: 1em;
+        font-size: 0.8em;
         overflow: hidden;
         li{
          
           padding-top: 1em;
-          padding-right: 7%;
+          padding-right: 5%;
           list-style:none;
           float: right;
         }
@@ -195,7 +197,97 @@ body,html{
     }
   }
 }
+/*-----------------------------------FIN INDEX-------------------------------------*/
+
+/* --------------------------- CUPONCLOUD ---------------------------- */
+
+.banner2{
+  background-color: #3ec3e6;
+  height: 7em;
+
+}
+.titulo{
+  text-align: center;
+  .tit{
+    color: #d7d7d7;
+    font-size: 2.4em;
+    margin:0;
+    padding-top: 1.4em;
+    .punto{
+      color: #fc5935;
+      margin:0;
+    }
+  }
+  .sub{
+    color: #4c4c4c;
+    font-size: 1em;
+    .aqui{
+      color: #fc5935;
+    }
+  }
+}
+.separador{
+  padding-top: 1em;
+  hr{
+    color: #ebebeb;
+    width: 85%;
+  }
+}
+.contenido{
+  padding: 7%;
+  text-align: left;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  font-size: 1em;
+  color: #696969;
+  line-height: 1.3em;
+  .nar{
+    color: #fc5935;
+  }
+  .tit{
+    text-align: center;
+    color: #fc5935;
+    font-size: 1.4em;
+  }
+
+  .columna{    
+    text-align: center;
+    float:center;
+    padding: 0.5em;
+  }
+  .col{
+    .esquema{
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+}
+
+/* --------------------------- FIN CUPONCLOUD ---------------------------- */
+
+/* --------------------------- INVERSIÓN ---------------------------- */
+.contenido{
+
+  .col{
+    hr{
+      color: #ffffff;
+    }
+    .tit{
+        color: #fc5935;
+      }
+    li{
+        line-height: 1.8em;
+      }
+    
+  }
+}
+
+/* --------------------------- FIN INVERSIÓN ---------------------------- */
+
+
 footer{
+  font-size: 0.7em;
   text-align: center;
   color: white;
   background-color: #484848;

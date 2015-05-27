@@ -11,6 +11,7 @@ $screen-lg-min:1200px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) { 
+  /*---------------------------------INDEX-------------------------------*/
   .bar{
     height:6em;
     .margen{
@@ -117,6 +118,53 @@ $screen-lg-min:1200px;
       }
     }
   }
+  /*---------------------------------FIN INDEX------------------------------*/
+
+
+    /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+
+  .contenido{
+    padding-top: 2em;
+    .tit{
+      text-align: left;
+    }
+    .col{
+      text-align: left;
+      vertical-align: top;
+      width: 65%;
+      display: inline-block;
+      .sub{
+        color: #fc5935;
+      }
+      .esquema{
+        clear: both;
+        position: relative;
+        overflow: hidden;
+        .esq1{
+          vertical-align: top;
+          width: 45%;
+        display: inline-block;
+        }
+      }
+    }
+    .columna{
+        text-align: left;
+        vertical-align: top;
+        width: 30%;
+        display: inline-block;
+    }
+    .columna2{
+      vertical-align: top;
+        width: 30%;
+        display: inline-block;
+    }
+    .componentes{    
+      vertical-align: top;
+      width: 23%;
+      display: inline-block;
+    }
+  }
+  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 }
 
 /* Large devices (large desktops, 1200px and up) */
