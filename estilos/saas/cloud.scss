@@ -11,6 +11,17 @@ body,html{
   height: 100%;
 }
 
+a{
+  text-decoration: none;
+  &:visited{
+    color:#818181;
+  }
+  &:hover{
+    color:#ea4703;
+  }
+    
+}
+
 
 /*-----------------------------------INDEX-------------------------------------*/
 .margenes{
@@ -54,7 +65,7 @@ body,html{
     }
 }
 .banner{
-	background-image: url(../../img/banner.png); 
+	background-image: url(../../img/banner.svg); 
 	background-size: cover;
 	height: 70%;
 	background-repeat:no-repeat;
