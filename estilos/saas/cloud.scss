@@ -23,7 +23,6 @@ a{
 }
 
 
-/*-----------------------------------INDEX-------------------------------------*/
 .margenes{
   width: 80%;
   background-color: red;
@@ -50,14 +49,13 @@ a{
       }
       .menu{
         display: none;
+        margin-top: 2em;
         width: 70%;      
         color: #818181;
-        font-size: 0.8em;
+        font-size: 1em;
         overflow: hidden;
         li{
-         
-          padding-top: 1em;
-          padding-right: 5%;
+          margin-left: 1em;
           list-style:none;
           float: right;
         }
@@ -67,10 +65,10 @@ a{
 .banner{
 	background-image: url(../../img/banner.svg); 
 	background-size: cover;
-	height: 70%;
+	height: 55%;
 	background-repeat:no-repeat;
   position: relative;
-  min-height: 80%;
+
   .izq{
     float: left;
     width: 100%;
@@ -83,6 +81,7 @@ a{
       float: left;
       font-size:  1.2em;
       line-height: 1.3em;
+      text-shadow:4px 4px 10px black;
       .sub{
         font-size: 1.9em;
         line-height: 1em;
@@ -110,6 +109,7 @@ a{
   clear: both;
   position: relative;
   overflow: hidden;
+  padding-bottom: 3em;
  
   .columna{    
     float:center;
@@ -125,7 +125,8 @@ a{
   }
 }
 .ganancias{
-  background-color: #cacaca;
+  background-color: #f98543;
+  padding: 2em;
   p{
     color: white;
     text-align: center;
@@ -180,14 +181,7 @@ a{
     font-size: 2.5em;
 
   }
-  .cont{
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    .col1{
-      float:center;
-      padding: 0.5em;
-    }
+
     .col2{
       float:center;
       padding: 0.5em;
@@ -206,11 +200,8 @@ a{
         font-size: 0.7em;
       }
     }
-  }
+  
 }
-/*-----------------------------------FIN INDEX-------------------------------------*/
-
-/* --------------------------- CUPONCLOUD ---------------------------- */
 
 .banner2{
   background-color: #3ec3e6;
@@ -275,9 +266,6 @@ a{
   }
 }
 
-/* --------------------------- FIN CUPONCLOUD ---------------------------- */
-
-/* --------------------------- INVERSIÓN ---------------------------- */
 .contenido{
 
   .col{
@@ -294,14 +282,13 @@ a{
   }
 }
 
-/* --------------------------- FIN INVERSIÓN ---------------------------- */
+
 
 
 footer{
   font-size: 0.7em;
   text-align: center;
-  color: white;
-  background-color: #484848;
+  color: gray;
   padding: 1em;
 }
   
