@@ -1,173 +1,210 @@
-/* line 1, ../saas/cloud.scss */
 html {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
-/* line 5, ../saas/cloud.scss */
 img {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
-/* line 10, ../saas/cloud.scss */
 body, html {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 13, ../saas/cloud.scss */
 a {
-  text-decoration: none;
-}
-/* line 15, ../saas/cloud.scss */
-a:visited {
-  color: #818181;
-}
-/* line 18, ../saas/cloud.scss */
-a:hover {
-  color: #ea4703;
-}
+  text-decoration: none; }
+  a:visited {
+    color: #818181; }
+  a:hover {
+    color: #ea4703; }
 
-/*-----------------------------------INDEX-------------------------------------*/
-/* line 26, ../saas/cloud.scss */
 .margenes {
   width: 80%;
   background-color: red;
   left: 0%;
   right: 0%;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
-/* line 36, ../saas/cloud.scss */
 .bar {
   background-color: white;
   height: 4em;
   position: absolute;
   z-index: 99;
-  width: 100%;
-}
-/* line 42, ../saas/cloud.scss */
-.bar .margen {
-  padding-left: 3em;
-  padding-right: 3em;
-}
-/* line 45, ../saas/cloud.scss */
-.bar .margen .logo {
-  padding-top: 0.2em;
-  width: 100%;
-  float: left;
-}
-/* line 50, ../saas/cloud.scss */
-.bar .margen .menu {
-  display: none;
-  width: 70%;
-  color: #818181;
-  font-size: 0.8em;
-  overflow: hidden;
-}
-/* line 56, ../saas/cloud.scss */
-.bar .margen .menu li {
-  padding-top: 1em;
-  padding-right: 5%;
-  list-style: none;
-  float: right;
-}
+  width: 100%; }
+  .bar .margen {
+    padding-left: 3em;
+    padding-right: 3em; }
+    .bar .margen .logo {
+      padding-top: 0.2em;
+      width: 100%;
+      float: left; }
+    .bar .margen .menu {
+      display: none;
+      margin-top: 2em;
+      width: 70%;
+      color: #818181;
+      font-size: 1em;
+      overflow: hidden; }
+      .bar .margen .menu li {
+        margin-left: 1em;
+        list-style: none;
+        float: right; }
 
-/* line 66, ../saas/cloud.scss */
+<<<<<<< HEAD
+/* line 66, ../saas/cloud.scss 
+=======
+>>>>>>> origin/master
 .banner {
   background-image: url(../../img/banner.svg);
   background-size: cover;
-  height: 70%;
+  height: 55%;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   position: relative;
   min-height: 80%;
 }
-/* line 73, ../saas/cloud.scss */
+/* line 73, ../saas/cloud.scss 
 .banner .izq {
   float: left;
   width: 100%;
   height: 100%;
   padding-top: 7em;
 }
-/* line 80, ../saas/cloud.scss */
+/* line 80, ../saas/cloud.scss
 .banner .te {
   color: white;
   float: left;
   font-size: 1.2em;
   line-height: 1.3em;
 }
-/* line 85, ../saas/cloud.scss */
+/* line 85, ../saas/cloud.scss
 .banner .te .sub {
   font-size: 1.9em;
   line-height: 1em;
 }
-/* line 90, ../saas/cloud.scss */
+/* line 90, ../saas/cloud.scss
 .banner .der {
   float: right;
   width: 50%;
   height: 100%;
 }
-/* line 94, ../saas/cloud.scss */
+/* line 94, ../saas/cloud.scss
 .banner .der .mano {
   display: none;
   position: absolute;
   bottom: 0;
   right: 3em;
 }
-/* line 100, ../saas/cloud.scss */
+/* line 100, ../saas/cloud.scss 
 .banner .der .mano img {
   max-width: 80%;
-}
+}*/
 
-/* line 106, ../saas/cloud.scss */
+.bannerContainer {
+  height: 60%;
+  /*background-color: yellow;*/ }
+
+.banner {
+  /*display: none;*/
+  background-image: url(../../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.banner2 {
+  display: none;
+  background-image: url(../../img/banner2.png);
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.banner3 {
+  display: none;
+  background-image: url(../../img/banner3.png);
+  background-color: purple;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.te {
+  text-align: center;
+  padding-top: 3em;
+  color: white;
+  float: left;
+  font-size: 2em;
+  line-height: 1em; }
+  .te .sub {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 100; }
+
+
+=======
+  position: relative; }
+  .banner .izq {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 7em; }
+  .banner .te {
+    color: white;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-shadow: 4px 4px 10px black; }
+    .banner .te .sub {
+      font-size: 1.9em;
+      line-height: 1em; }
+  .banner .der {
+    float: right;
+    width: 50%;
+    height: 100%; }
+    .banner .der .mano {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      right: 3em; }
+      .banner .der .mano img {
+        max-width: 80%; }
+>>>>>>> origin/master
+
 .rombo {
   margin-top: 1em;
   text-align: center;
   clear: both;
   position: relative;
   overflow: hidden;
-}
-/* line 113, ../saas/cloud.scss */
-.rombo .columna {
-  float: center;
-  padding: 0.5em;
-}
-/* line 116, ../saas/cloud.scss */
-.rombo .columna .tit {
-  font-size: 1.3em;
-  color: #6b6b6b;
-}
-/* line 120, ../saas/cloud.scss */
-.rombo .columna .link {
-  font-size: 1em;
-  color: #e45c23;
-}
+  padding-bottom: 3em; }
+  .rombo .columna {
+    float: center;
+    padding: 0.5em; }
+    .rombo .columna .tit {
+      font-size: 1.3em;
+      color: #6b6b6b; }
+    .rombo .columna .link {
+      font-size: 1em;
+      color: #e45c23; }
 
-/* line 126, ../saas/cloud.scss */
 .ganancias {
-  background-color: #cacaca;
-}
-/* line 128, ../saas/cloud.scss */
-.ganancias p {
-  color: white;
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-/* line 134, ../saas/cloud.scss */
-.ganancias .uno {
-  font-size: 1.3em;
-}
-/* line 138, ../saas/cloud.scss */
-.ganancias .dos {
-  font-size: 1.4em;
-}
-/* line 141, ../saas/cloud.scss */
-.ganancias .nar {
-  color: #ea4703;
-}
+  background-color: #f98543;
+  padding: 2em; }
+  .ganancias p {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+  .ganancias .uno {
+    font-size: 1.3em; }
+  .ganancias .dos {
+    font-size: 1.4em; }
+  .ganancias .nar {
+    color: #ea4703; }
 
-/* line 145, ../saas/cloud.scss */
 .cupon {
   padding: 7%;
   background-color: #f6f6f6;
@@ -175,120 +212,74 @@ a:hover {
   text-align: center;
   clear: both;
   position: relative;
-  overflow: hidden;
-}
-/* line 154, ../saas/cloud.scss */
-.cupon .col {
-  float: center;
-  padding: 0.5em;
-}
-/* line 158, ../saas/cloud.scss */
-.cupon .col2 {
-  vertical-align: top;
-  float: center;
-  padding: 0.5em;
-}
-/* line 162, ../saas/cloud.scss */
-.cupon .col2 .texto {
-  text-align: left;
-  color: #696969;
-  line-height: 1.3em;
-}
-/* line 166, ../saas/cloud.scss */
-.cupon .col2 .texto .nar {
-  color: #ea4703;
-}
+  overflow: hidden; }
+  .cupon .col {
+    float: center;
+    padding: 0.5em; }
+  .cupon .col2 {
+    vertical-align: top;
+    float: center;
+    padding: 0.5em; }
+    .cupon .col2 .texto {
+      text-align: left;
+      color: #696969;
+      line-height: 1.3em; }
+      .cupon .col2 .texto .nar {
+        color: #ea4703; }
 
-/* line 174, ../saas/cloud.scss */
 .info {
   padding-left: 7%;
   padding-top: 2em;
-  padding-right: 7%;
-}
-/* line 178, ../saas/cloud.scss */
-.info .tit {
-  font-size: 2.5em;
-}
-/* line 182, ../saas/cloud.scss */
-.info .cont {
-  clear: both;
-  position: relative;
-  overflow: hidden;
-}
-/* line 186, ../saas/cloud.scss */
-.info .cont .col1 {
-  float: center;
-  padding: 0.5em;
-}
-/* line 190, ../saas/cloud.scss */
-.info .cont .col2 {
-  float: center;
-  padding: 0.5em;
-  color: #a8a8a8;
-}
-/* line 194, ../saas/cloud.scss */
-.info .cont .col2 .tel {
-  font-size: 1.4em;
-}
-/* line 197, ../saas/cloud.scss */
-.info .cont .col2 .tel2 {
-  font-size: 2em;
-  color: #ea4703;
-}
-/* line 201, ../saas/cloud.scss */
-.info .cont .col2 .mail {
-  font-size: 1.3em;
-}
-/* line 204, ../saas/cloud.scss */
-.info .cont .col2 .dire {
-  font-size: 0.7em;
-}
+  padding-right: 7%; }
+  .info .tit {
+    font-size: 2.5em; }
+  .info .col2 {
+    float: center;
+    padding: 0.5em;
+    color: #a8a8a8; }
+    .info .col2 .tel {
+      font-size: 1.4em; }
+    .info .col2 .tel2 {
+      font-size: 2em;
+      color: #ea4703; }
+    .info .col2 .mail {
+      font-size: 1.3em; }
+    .info .col2 .dire {
+      font-size: 0.7em; }
 
+<<<<<<< HEAD
 /*-----------------------------------FIN INDEX-------------------------------------*/
 /* --------------------------- CUPONCLOUD ---------------------------- */
 /* line 214, ../saas/cloud.scss */
+
+=======
 .banner2 {
   background-color: #3ec3e6;
-  height: 7em;
-}
+  height: 7em; }
+>>>>>>> origin/master
 
-/* line 219, ../saas/cloud.scss */
 .titulo {
-  text-align: center;
-}
-/* line 221, ../saas/cloud.scss */
-.titulo .tit {
-  color: #d7d7d7;
-  font-size: 2.4em;
-  margin: 0;
-  padding-top: 1.4em;
-}
-/* line 226, ../saas/cloud.scss */
-.titulo .tit .punto {
-  color: #fc5935;
-  margin: 0;
-}
-/* line 231, ../saas/cloud.scss */
-.titulo .sub {
-  color: #4c4c4c;
-  font-size: 1em;
-}
-/* line 234, ../saas/cloud.scss */
-.titulo .sub .aqui {
-  color: #fc5935;
-}
+  text-align: center; }
+  .titulo .tit {
+    color: #d7d7d7;
+    font-size: 2.4em;
+    margin: 0;
+    padding-top: 1.4em; }
+    .titulo .tit .punto {
+      color: #fc5935;
+      margin: 0; }
+  .titulo .sub {
+    color: #4c4c4c;
+    font-size: 1em; }
+    .titulo .sub .aqui {
+      color: #fc5935; }
 
-/* line 239, ../saas/cloud.scss */
 .separador {
-  padding-top: 1em;
-}
-/* line 241, ../saas/cloud.scss */
-.separador hr {
-  color: #ebebeb;
-  width: 85%;
-}
+  padding-top: 1em; }
+  .separador hr {
+    color: #ebebeb;
+    width: 85%; }
 
-/* line 246, ../saas/cloud.scss */
 .contenido {
   padding: 7%;
   text-align: left;
@@ -297,51 +288,32 @@ a:hover {
   overflow: hidden;
   font-size: 1em;
   color: #696969;
-  line-height: 1.3em;
-}
-/* line 255, ../saas/cloud.scss */
-.contenido .nar {
-  color: #fc5935;
-}
-/* line 258, ../saas/cloud.scss */
-.contenido .tit {
-  text-align: center;
-  color: #fc5935;
-  font-size: 1.4em;
-}
-/* line 264, ../saas/cloud.scss */
-.contenido .columna {
-  text-align: center;
-  float: center;
-  padding: 0.5em;
-}
-/* line 270, ../saas/cloud.scss */
-.contenido .col .esquema {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+  line-height: 1.3em; }
+  .contenido .nar {
+    color: #fc5935; }
+  .contenido .tit {
+    text-align: center;
+    color: #fc5935;
+    font-size: 1.4em; }
+  .contenido .columna {
+    text-align: center;
+    float: center;
+    padding: 0.5em; }
+  .contenido .col .esquema {
+    padding-top: 1em;
+    padding-bottom: 1em; }
 
-/* --------------------------- FIN CUPONCLOUD ---------------------------- */
-/* --------------------------- INVERSIÓN ---------------------------- */
-/* line 283, ../saas/cloud.scss */
 .contenido .col hr {
-  color: #ffffff;
-}
-/* line 286, ../saas/cloud.scss */
+  color: #ffffff; }
 .contenido .col .tit {
-  color: #fc5935;
-}
-/* line 289, ../saas/cloud.scss */
+  color: #fc5935; }
 .contenido .col li {
-  line-height: 1.8em;
-}
+  line-height: 1.8em; }
 
-/* --------------------------- FIN INVERSIÓN ---------------------------- */
-/* line 299, ../saas/cloud.scss */
 footer {
   font-size: 0.7em;
   text-align: center;
-  color: white;
-  background-color: #484848;
-  padding: 1em;
-}
+  color: gray;
+  padding: 1em; }
+
+/*# sourceMappingURL=cloud.css.map */
