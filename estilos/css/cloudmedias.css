@@ -1,116 +1,184 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  /*---------------------------------INDEX-------------------------------*/
+  /* line 15, ../saas/cloudmedias.scss */
   .bar {
-    height: 6em; }
-    .bar .margen {
-      padding-left: 3em;
-      padding-right: 3em; }
-      .bar .margen .logo {
-        width: 30%;
-        float: left;
-        padding-top: 0.5em; }
-      .bar .margen .menu {
-        display: block;
-        float: right;
-        width: 70%;
-        padding-top: 0.5em; }
+    height: 6em;
+  }
+  /* line 17, ../saas/cloudmedias.scss */
+  .bar .margen {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  /* line 20, ../saas/cloudmedias.scss */
+  .bar .margen .logo {
+    width: 30%;
+    float: left;
+    padding-top: 0.5em;
+  }
+  /* line 25, ../saas/cloudmedias.scss */
+  .bar .margen .menu {
+    display: block;
+    float: right;
+    width: 70%;
+    padding-top: 0.5em;
+  }
 
+  /* line 34, ../saas/cloudmedias.scss */
   .banner {
-    position: relative; }
-    .banner .izq {
-      float: left;
-      width: 60%;
-      height: 100%; }
-    .banner .te {
-      padding-top: 4em;
-      font-size: 2em; }
-      .banner .te .sub {
-        font-size: 1.5em; }
-    .banner .der {
-      float: right;
-      width: 40%;
-      height: 100%; }
-      .banner .der .mano {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 3em; }
-        .banner .der .mano img {
-          max-width: 80%; }
+    position: relative;
+  }
+  /* line 36, ../saas/cloudmedias.scss */
+  .banner .izq {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  /* line 41, ../saas/cloudmedias.scss */
+  .banner .te {
+    padding-top: 4em;
+    font-size: 2em;
+  }
+  /* line 44, ../saas/cloudmedias.scss */
+  .banner .te .sub {
+    font-size: 1.5em;
+  }
+  /* line 48, ../saas/cloudmedias.scss */
+  .banner .der {
+    float: right;
+    width: 40%;
+    height: 100%;
+  }
+  /* line 53, ../saas/cloudmedias.scss */
+  .banner .der .mano {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 3em;
+  }
+  /* line 59, ../saas/cloudmedias.scss */
+  .banner .der .mano img {
+    max-width: 80%;
+  }
 
+  /* line 65, ../saas/cloudmedias.scss */
   .rombo {
-    padding-top: 2em; }
-    .rombo .columna {
-      width: 20%;
-      display: inline-block;
-      padding-left: 1em;
-      padding-right: 1em; }
+    padding-top: 2em;
+  }
+  /* line 67, ../saas/cloudmedias.scss */
+  .rombo .columna {
+    width: 20%;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 
+  /* line 75, ../saas/cloudmedias.scss */
   .ganancias {
     padding-left: 20%;
-    padding-right: 20%; }
-    .ganancias .uno {
-      font-size: 1.8em; }
-    .ganancias .dos {
-      font-size: 1.4em;
-      line-height: 0.7em; }
-    .ganancias .nar {
-      color: #ea4703; }
+    padding-right: 20%;
+  }
+  /* line 78, ../saas/cloudmedias.scss */
+  .ganancias .uno {
+    font-size: 1.8em;
+  }
+  /* line 82, ../saas/cloudmedias.scss */
+  .ganancias .dos {
+    font-size: 1.4em;
+  }
+  /* line 85, ../saas/cloudmedias.scss */
+  .ganancias .nar {
+    color: #ea4703;
+  }
 
+  /* line 90, ../saas/cloudmedias.scss */
   .cupon .col {
     width: 40%;
     display: inline-block;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+  }
+  /* line 96, ../saas/cloudmedias.scss */
   .cupon .col2 {
     padding-top: 6em;
     width: 40%;
     display: inline-block;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+  }
 
+  /* line 106, ../saas/cloudmedias.scss */
   .info .cont .col1 {
     width: 50%;
     display: inline-block;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+  }
+  /* line 112, ../saas/cloudmedias.scss */
   .info .cont .col2 {
     text-align: right;
     width: 30%;
     display: inline-block;
     padding-left: 1em;
-    padding-right: 1em; }
+    padding-right: 1em;
+  }
 
+  /*---------------------------------FIN INDEX------------------------------*/
+  /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+  /* line 126, ../saas/cloudmedias.scss */
   .contenido {
-    padding-top: 2em; }
-    .contenido .tit {
-      text-align: left; }
-    .contenido .col {
-      text-align: left;
-      vertical-align: top;
-      width: 65%;
-      display: inline-block; }
-      .contenido .col .sub {
-        color: #fc5935; }
-      .contenido .col .esquema {
-        clear: both;
-        position: relative;
-        overflow: hidden; }
-        .contenido .col .esquema .esq1 {
-          vertical-align: top;
-          width: 45%;
-          display: inline-block; }
-    .contenido .columna {
-      text-align: left;
-      vertical-align: top;
-      width: 30%;
-      display: inline-block; }
-    .contenido .columna2 {
-      vertical-align: top;
-      width: 30%;
-      display: inline-block; }
-    .contenido .componentes {
-      vertical-align: top;
-      width: 23%;
-      display: inline-block; } }
+    padding-top: 2em;
+  }
+  /* line 128, ../saas/cloudmedias.scss */
+  .contenido .tit {
+    text-align: left;
+  }
+  /* line 131, ../saas/cloudmedias.scss */
+  .contenido .col {
+    text-align: left;
+    vertical-align: top;
+    width: 65%;
+    display: inline-block;
+  }
+  /* line 136, ../saas/cloudmedias.scss */
+  .contenido .col .sub {
+    color: #fc5935;
+  }
+  /* line 139, ../saas/cloudmedias.scss */
+  .contenido .col .esquema {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 143, ../saas/cloudmedias.scss */
+  .contenido .col .esquema .esq1 {
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+  }
+  /* line 150, ../saas/cloudmedias.scss */
+  .contenido .columna {
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+  }
+  /* line 156, ../saas/cloudmedias.scss */
+  .contenido .columna2 {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+  }
+  /* line 161, ../saas/cloudmedias.scss */
+  .contenido .componentes {
+    vertical-align: top;
+    width: 23%;
+    display: inline-block;
+  }
 
-/*# sourceMappingURL=cloudmedias.css.map */
+  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+}
+/* Large devices (large desktops, 1200px and up) */
