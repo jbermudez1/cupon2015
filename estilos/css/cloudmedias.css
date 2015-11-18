@@ -5,6 +5,10 @@
 @media (min-width: 992px) {
   /*---------------------------------INDEX-------------------------------*/
   /* line 15, ../saas/cloudmedias.scss */
+  .margen1{
+    padding-top: 5em;
+    }
+
   .bar {
     height: 6em;
   }
