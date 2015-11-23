@@ -39,3 +39,4 @@ function mostrarBanner ( amostrar ){
   		amostrar();
  	}, 5000);
 }
+

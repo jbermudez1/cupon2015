@@ -22,7 +22,6 @@ a{
     
 }
 
-
 /*-----------------------------------INDEX-------------------------------------*/
 .margenes{
   width: 80%;
@@ -36,9 +35,7 @@ a{
 
 .bar{
     background-color: rgba(255, 255, 255, 1);
-    height:4em;   
-    position: absolute;
-    z-index: 99;
+    height:6em;   
     width: 100%;
     .margen{
       padding-left: 3em;
@@ -52,11 +49,11 @@ a{
         display: none;
         width: 70%;      
         color: #818181;
-        font-size: 0.8em;
+        font-size: 1em;
         overflow: hidden;
         li{
          
-          padding-top: 1em;
+          padding-top: 1.9em;
           padding-right: 5%;
           list-style:none;
           float: right;
@@ -64,46 +61,57 @@ a{
       }
     }
 }
+.bannerContainer {
+  height: 40%;
+  /*background-color: yellow;*/
+}
+.title {
+  font-size: 2em
+}
 .banner{
-	background-image: url(../../img/banner.svg); 
-	background-size: cover;
-	height: 70%;
-	background-repeat:no-repeat;
+ /* display: none;*/
+  background-image: url(../../img/banners/banner.svg); 
+  background-color:  yellow;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat:no-repeat;
   position: relative;
-  min-height: 80%;
-  .izq{
-    float: left;
-    width: 100%;
-    height: 100%;
-    padding-top: 7em;
-
-  }
+}
+.banner2{
+  display: none;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.banner3{
+  display: none;
+/*  background-image: url(../../img/banner3.png); 
+*/  background-color: purple;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat:no-repeat;
+  position: relative;
+}
   .te{
+    text-align: center;
+    padding-top: 3em;
       color: white;
       float: left;
-      font-size:  1.2em;
-      line-height: 1.3em;
+      font-size:  2em;
+      line-height: 1em;
+      text-shadow: 2px 4px 4px black;
       .sub{
-        font-size: 1.9em;
+        font-size: 1em;
         line-height: 1em;
+        font-weight: 100;
       }
     }
-  .der{
-    float: right; 
-    width: 50%;
-    height: 100%;
-    .mano{
-      display: none;
-      position: absolute;
-      bottom: 0;
-      right: 3em;
 
-      img{
-        max-width: 80%;
-      }
-    }
-  }
-}
 .rombo{
   margin-top: 1em;
   text-align: center;
@@ -125,7 +133,7 @@ a{
   }
 }
 .ganancias{
-  background-color: #cacaca;
+  background-color: #f98543;
   p{
     color: white;
     text-align: center;
@@ -212,11 +220,7 @@ a{
 
 /* --------------------------- CUPONCLOUD ---------------------------- */
 
-.banner2{
-  background-color: #3ec3e6;
-  height: 7em;
 
-}
 .titulo{
   text-align: center;
   .tit{
@@ -300,8 +304,8 @@ a{
 footer{
   font-size: 0.7em;
   text-align: center;
-  color: white;
-  background-color: #484848;
+  color: #484848;
+  background-color: white;
   padding: 1em;
 }
   

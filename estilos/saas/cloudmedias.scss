@@ -15,8 +15,8 @@ $screen-lg-min:1200px;
   .bar{
     height:6em;
     .margen{
-      padding-left: 3em;
-      padding-right: 3em;
+      padding-left: 12em;
+      padding-right: 12em;
       .logo{
         width: 30%;
         float: left;
@@ -31,37 +31,6 @@ $screen-lg-min:1200px;
       }
     }
 }
-  .banner{
-  position: relative;
-    .izq{
-      float: left;
-      width: 60%;
-      height: 100%;
-    }
-    .te{
-      padding-top: 4em;
-      font-size: 2em;
-      .sub{
-        font-size: 1.5em;
-      }
-    }
-    .der{
-
-      float: right; 
-      width: 40%;
-      height: 100%;
-      .mano{
-        display:block;
-        position: absolute;
-        bottom: 0;
-        right: 3em;
-
-        img{
-          max-width: 80%;
-        }
-      }
-    }
-  }
   .rombo{
     padding-top: 2em;
     .columna{
@@ -168,6 +137,3 @@ $screen-lg-min:1200px;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
-
-}
